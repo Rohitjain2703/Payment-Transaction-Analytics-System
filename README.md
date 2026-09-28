@@ -59,3 +59,96 @@ data/
 │
 ├── sample/
 └── processed/
+
+
+## 6. Technology Stack
+
+### Programming & Data Processing
+- Python
+- Pandas
+- NumPy
+- seaborn 
+
+### Database
+- PostgreSQL
+- SQL
+
+### Data Transformation
+- dbt
+- SQL
+
+### Data Quality & Testing
+- Pytest
+- dbt Tests
+
+### Data Visualization
+- Power BI
+- DAX
+
+### Version Control & Collaboration
+- Git
+- GitHub
+- Jira
+
+### CI/CD
+- GitHub Actions
+
+### Development Environment
+- Visual Studio Code
+
+---
+
+## 7. Project Structure
+
+```text
+payment-transaction-analytics/
+│
+├── data/
+│   ├── raw/
+│   │   ├── customers.csv
+│   │   ├── merchants.csv
+│   │   ├── payment_methods.csv
+│   │   ├── transactions.csv
+│   │   ├── refunds.csv
+│   │   └── chargebacks.csv
+│   │
+│   ├── sample/
+│   └── processed/
+│
+├── src/
+│   ├── ingestion/
+│   ├── validation/
+│   ├── transformation/
+│   ├── database/
+│   └── utils/
+│
+├── sql/
+│   ├── ddl/
+│   ├── staging/
+│   ├── transformations/
+│   └── marts/
+│
+├── tests/
+│   ├── unit/
+│   └── integration/
+│
+├── notebooks/
+│
+├── powerbi/
+│
+├── config/
+│
+├── docs/
+│   ├── business_requirements.md
+│   ├── data_dictionary.md
+│   ├── project_architecture.md
+│   ├── kpi_definitions.md
+│   └── team_tasks.md
+│
+├── .github/
+│   └── workflows/
+│
+├── .env.example
+├── .gitignore
+├── requirements.txt
+└── README.md
