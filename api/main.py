@@ -19,3 +19,11 @@ def health_check():
 
 
 app.include_router(prediction_router)
+
+@app.get("/")
+def root():
+    
+    return {
+        "status": "success",
+        "message": "Payment Transaction Analytics API is running"
+    }
