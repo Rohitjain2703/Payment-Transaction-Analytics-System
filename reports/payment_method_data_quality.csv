@@ -1,0 +1,9 @@
+Data quality check,Count
+Payment method source rows,10000
+Transaction rows,10000
+Exact duplicate payment method rows in source,115
+Missing payment method IDs in source,148
+Conflicting payment method IDs,1
+Transactions with missing payment method ID,197
+Unmatched transaction rows,541
+Transactions with unknown status,149

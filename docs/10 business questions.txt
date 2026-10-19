@@ -1,0 +1,30 @@
+1. Which payment method is most frequently used for transactions?
+-> UPI is the most frequently used payment method.
+UPI accounts for approximately 47.8% of transactions with a known payment method, making it the leading payment method in this dataset.
+
+2. Which payment method contributes the highest total transaction value?
+-> UPI contributes the highest total transaction value, approximately ₹10.18 crore. This suggests that UPI is the leading payment method in both transaction frequency and total transaction value.
+
+3.Which payment method has the highest transaction success rate?
+-> Debit Card has the highest transaction success rate at 82.81%. Credit Card has the lowest success rate at 81.56% among these four payment methods. The difference is relatively small, so further investigation would be needed before concluding that one method performs substantially better than another.
+
+4.Which payment method has the highest transaction failure rate?
+-> Credit Card has the highest transaction failure rate at 11.94%. Debit Card has the lowest rate at 11.47%. The difference is small, but Credit Card transactions may warrant further investigation to identify possible failure causes.
+
+5. Which payment provider performs best based on transaction success and failure rates?
+-> PhonePe performs best among the listed providers, with the highest success rate (84.62%) and the lowest failure rate (11.06%). BHIM has the lowest success rate (80.74%) and the highest failure rate (12.96%), making it a candidate for further investigation.
+
+6. Which payment methods are used by the highest number of unique customers?
+-> UPI is used by the highest number of unique customers (3,491). Net Banking has the lowest unique customer count (839). This indicates that UPI has the broadest customer reach among the listed payment methods in this dataset.
+
+7.Which payment method has the highest average transaction amount?
+-> Credit Card has the highest average transaction amount at ₹23,550.21. Net Banking has the lowest average at ₹22,963.53. This suggests that the average transaction value is slightly higher for Credit Card, although the difference between methods is relatively small.
+
+8. Are high-value transactions concentrated in specific payment methods?
+-> UPI has the highest number of high-value transactions (891) and the highest total high-value transaction amount (approximately ₹6.63 crore). This suggests that high-value transactions are concentrated more heavily in UPI in this dataset. However, UPI also has the highest overall transaction volume, so comparing the proportion of high-value transactions within each method would give a fairer picture.
+
+9. Which payment methods require business attention due to high failure rates or transaction volumes?
+-> UPI requires attention because it has the highest transaction volume and the largest number of failed transactions (523). Credit Card also deserves attention because it has the highest failure rate (11.94%). The business should investigate failure reasons, particularly for these two payment methods.
+
+10. How do missing values, duplicate payment method IDs, and unmatched IDs affect the reliability of the analysis?
+-> Missing values, duplicate payment method IDs and unmatched records can reduce the reliability of transaction analysis. Duplicate IDs can inflate transaction counts and amounts after a merge, while missing payment methods and amounts can cause records to be excluded from particular calculations. Therefore, data quality checks and deduplication should be completed before using the results for business decisions.
